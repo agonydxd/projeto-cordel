@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Unbounded:wght@200&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(140, 137, 137);
+}
+
+header{
+    background-color: black;
+    font-family:Unbounded;
+    color: white;
+    text-align: center;
+    height: 120px;
+    width: 100vw;
+    padding: 10px;
+    padding-top: 10px;
+    margin-left: -10px;
+    margin-top: -8px;    
+}
+
+header > h1, a {
+    padding: 10px;
+    color: white;   
+}
+
+p > a{
+    text-decoration: none;
+}
+
+ header > p > a:hover {
+ color: #b5a305;
+ transition-duration: 0.5s;
+ }
+
+section {
+    padding:10vh 0vh 10vh 5vh;
+    line-height: 30px;
+    font-size: 20px;
+    
+}
+
+section.normal{
+    background-color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(44, 44, 44, 0.333);
+}
+
+section#img01 {
+    background-image: url(../projeto-cordel/imagens/background001.jpg);
+    background-position: center center;
+}
+
+section#img02{
+    background-image: url(../projeto-cordel/imagens/background002.jpg);
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: #615e5e46;
+    color: white;
+    text-shadow: 1px 1px 5px black;   
+}
+
+footer > a{
+    text-decoration: none;
+}
+
+footer > a:hover {
+    color: #5470d6;
+    transition-duration: 0.5s ;
+}
+
+ footer{
+    background-color: rgba(0, 0, 0, 0.415);
+    color: #a79090;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    
+}
