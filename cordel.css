@@ -49,6 +49,13 @@ section.normal{
     text-shadow: 1px 1px 1px rgba(44, 44, 44, 0.333);
 }
 
+section.imagem{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: cover;
+    background-size: cover;
+}
+
 section#img01 {
     background-image: url(../projeto-cordel/imagens/background001.jpg);
     background-position: center center;
